@@ -1,0 +1,75 @@
+// import {FullScreen , useFullScreenHandle} from 'react-full-screen'
+// import './main.css'
+// import Board from './Board';
+
+
+    // prompt
+    //const name = prompt("Please enter your name", "AmiRZ ");
+
+    //alert
+    //alert("Welcome " + name );
+    //
+    // const Handle = useFullScreenHandle()
+
+
+
+
+                {/* <FullScreen handle={Handle}>
+                        <h2>
+                            During this task, two boards will be presented at a time. The boards will be of colored balls arranged on pegs like this:
+                        </h2>
+
+                        <div>
+                            <Board/>
+                        </div>
+                </FullScreen>
+               
+                <h3>
+                    The experiment will launch in fullscreen mode when you click the button below.
+                </h3>
+                
+                <button className='btn-fullScreen' onClick={Handle.enter} >
+                    Launch Experiment
+                </button> */}
+
+
+
+
+
+
+                // useEffect(() => {
+                //     console.log('must ve been Clicked')
+                //     let element = document.getElementById('my-fullscreen');
+                //     element.requestFullscreen();
+                // }, [goFull])
+
+
+
+
+
+                // const [index , setindex] = useState(0)
+                // const {name , job} = Data[index]
+            
+                // const checknumber = (number) => {
+                //     if(number > Data.length - 1){
+                //         return 0 
+                //     }
+                //     if(number < 0 ){
+                //         return Data.length - 1 
+                //     }
+                //     return number
+                // }
+            
+                // function next() {
+                //     setindex((index) => {
+                //         let number = index + 1 
+                //         return checknumber(number)
+                //     })
+                // }
+            
+                // function prev() {
+                //     setindex((index) => {
+                //         let number = index - 1 
+                //         return checknumber(number)
+                //     })
+                // }

@@ -1,0 +1,97 @@
+.Main{
+    position: fixed;
+    left: 5vw;
+    top: 2vh;
+    height: 94vh;
+    width: 90vw;
+    background-color: white;
+    box-shadow: 1px 1px 1px #999;
+    border-radius: 15px;
+    z-index: 0;
+    padding: 30px 30px 30px 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* AppMain */
+
+.App-main{
+    text-align: center;
+    margin-top: 0px;
+    z-index: 1;
+}
+
+/* title */
+h3{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color : #3a3a3a;
+}
+
+/* button */
+button:hover{
+    border-color: #999;
+    background-color: darkblue;
+}
+button{
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 12px 20px 12px 20px;
+    color: white;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    line-height: 1.4;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+/* h2 */
+h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color : #3a3a3a;
+    width: 100%;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+
+/* FullScreen */
+
+.fullscreen{
+    background-color: #fff
+     ;
+}
+
+/* btn-show */
+.btn-show{
+    position: relative;
+    top: 3rem;
+}
+
+
+/*  */
+#GoFullscreen{
+    display: flex;
+    position: fixed;
+    left: 5vw;
+    top: 2vh;
+    height: 94vh;
+    width: 90vw;
+    background-color: white;
+    box-shadow: inset 2px 3px 20px #999;
+    border-radius: 15px;
+    z-index: 0;
+    padding: 30px 30px 30px 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+/* board */

@@ -1,0 +1,120 @@
+.MainBoard{
+    position: relative;
+    top: 0.5rem;
+    height: 360px;
+
+}
+
+.Target-Board{
+    position: relative;
+    left: 30rem;
+    top: 11.5rem;
+}
+/* board item */
+
+.your_board{
+    width: 25vw;
+    height: 20vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-110%, -60%);
+}
+
+.base{
+    width: 100%;
+    height: 3vw;
+    background-color: brown;
+    position: absolute;
+    top: 100%;
+}
+.board_label{
+    width: 50%;
+    height: 2vw;
+    position: relative;
+    top: 102.5%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    font-size: px;
+    color: white;
+    text-align: center;
+}
+
+.peg_1  {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 20%;
+    height: 101%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-right: -50%;
+    cursor: pointer;
+}
+.peg_2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 20%;
+    height: 70%;
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    margin-right: -50%;
+    cursor: pointer;
+}
+.peg_3{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 20%;
+    height: 36%;
+    position: absolute;
+    top: 67%;
+    left: 70%;
+    margin-right: -50%;
+    cursor: pointer;
+}
+.peg{
+    width: 25%;
+    height: 101%;
+    background-color: brown;
+    margin-left: 37%;
+    margin-right: 37%;
+    position: relative;
+    border-radius: 15px;
+
+}
+.Green {
+    background: #00CC33;
+}
+.Red{
+    background-color: red;
+}
+.Blue{
+    background-color: #0099FF;
+}   
+.ball {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 2.5vw;
+    margin-bottom: 5px;
+}
+    
+
+.Hand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 9vw;
+    position: relative;
+    left: 40%;
+    bottom: 15vh;
+    margin-right: -50%;
+    background-color: gray;
+    border-radius: 25px;
+    border: 2px solid #606060;         
+}
